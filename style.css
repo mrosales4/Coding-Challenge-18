@@ -1,0 +1,51 @@
+//U22978120
+
+/* General styles */
+.toolbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Movie selector */
+.toolbar select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+/* Rate movie */
+.rate-movie {
+  display: flex;
+  align-items: center;
+}
+
+.rate-movie span {
+  margin-right: 10px;
+}
+
+.star {
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.active {
+  color: gold;
+}
+
+/* Upload button */
+.upload {
+  margin-left: auto;
+}
+
+.upload input[type="file"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
